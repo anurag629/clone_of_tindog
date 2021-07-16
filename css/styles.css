@@ -5,6 +5,9 @@ body {
 #title {
     color: white;
     background-color: #ff4c68;
+    
+    
+    
 }
 
 .title-heading-1 {
@@ -55,12 +58,17 @@ body {
 .mobi-image {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
 }
 /* End mobile image */
 
 /* Start feature section */
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    
 }
 .fea-divv {
     text-align: center;
@@ -87,7 +95,11 @@ p {
 }
 
 
+
+
 /* End feature section */
+
+
 
 
 /* Start Testomonial */
