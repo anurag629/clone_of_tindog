@@ -20,7 +20,7 @@ body {
 
 .container-fluid {
     
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 
@@ -59,6 +59,7 @@ body {
     width: 60%;
     transform: rotate(25deg);
     position: absolute;
+    right: 27%;
 }
 /* End mobile image */
 
@@ -67,7 +68,7 @@ body {
     padding: 7% 15%;
     background-color: #fff;
     position: relative;
-    z-index: 1;
+ 
     
 }
 .fea-divv {
@@ -155,3 +156,45 @@ h2 {
 
 
 /* End pricing */
+
+
+/* Start Call to action */
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 7% 18%;
+    
+}
+
+h3 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+
+/* End call to action */
+
+
+
+@media (max-width: 1085px) {
+
+    #title {
+        color: white;
+        background-color: #ff4c68;
+        text-align: center;
+        
+        
+        
+    }
+
+    .mobi-image {
+        width: 60%;
+        transform: rotate(0);
+        position: static;
+        right: 27%;
+    }
+
+
+
+
+}
